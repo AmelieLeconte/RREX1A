@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RREX Amélie Leconte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>  
+    <!-- Element where the Vanta.js effect will be applied -->
+    <div id="vanta-bg">
+        <div class="content">
+            <div class="header">
+                <!-- Lien pour le logo Telehouse -->
+                <a href="https://www.telehouse.com" target="_blank">
+                    <img src="logoTelehouse.webp" class="logo-image" alt="Logo Telehouse">
+                </a>
+                
+                <h1 class="center title">Au coeur des Data Centers chez Telehouse</h1>
+                
+                <!-- Lien pour le logo Telecom SudParis -->
+                <a href="https://www.telecom-sudparis.eu" target="_blank">
+                    <img src="Logo_TSP.svg.png" class="logo-image" alt="Logo TSP">
+                </a>
+            </div>
+            
+            <div class="header">
+                <h4 class="center">Stage de 1A du 15 juillet au 09 août 2023</h4>
+                <h4 class="center">Amélie Leconte</h4>
+            </div>
+            
+            <div class="button-container-first">
+                <a href="Sommaire.html">
+                    <button type="button">Découvrir le RREX ! </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#vanta-bg",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0xeb8935,
+            backgroundColor: 0xf012a,
+            points: 11.00,
+            maxDistance: 32.00
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+/* Style commun pour toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+#vanta-bg {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title {
+    font-size: 3rem;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.header img {
+    width: 100px; /* Adjust as needed */
+}
+
+.header h1 {
+    margin: 20px 0;
+    font-size: 3rem; /* Increase the font size for larger title */
+}
+
+.header h4 {
+    margin: 10px 0; /* Adjust margin for spacing */
+}
+
+.banner-main-content {
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 1500px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Style spécifique pour la page avec le fond APpgarde.jpg */
+.body-sommaire {
+    background: #e0e0e0 url('WhatsApp\ Image\ 2024-08-06\ at\ 09.09.37.jpeg') no-repeat center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+/* Style spécifique pour la page avec le fond APpintro.jpg */
+.body-home {
+    background: #8496dd url('APpintro') no-repeat center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+/* Style spécifique pour la page avec les fonds des parties */
+.body-parties {
+    background: #8496dd ;
+    background-size: cover;
+    background-clip: border-box;
+}
+/* Style spécifique pour la page intro et conclu */
+.body-introetconclu {
+    background: #8496dd url('introetconclu.jpeg') no-repeat center center;
+    background-size: cover;
+    background-clip: border-box;
+}
+
+.banner {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-image {
+    width: 400px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.button-container, .button-container-first {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-container button, .button-container-first button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0d3055;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container-first button {
+    font-size: 25px;
+}
+
+.button-container button:hover, .button-container-first button:hover {
+    background-color: #000000;
+    transform: scale(1.2);
+}
+
+.button-back {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.button-back .back-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #c99f2e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-back .back-button:hover {
+    background-color: #584012;
+    transform: scale(1.2);
+}
+
+/* Ajout des styles pour les boutons gauche et droite */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; /* Ajustez les marges selon vos besoins */
+}
+
+.button-left, .button-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.button-left button, .button-right button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0d3055;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-left button:hover, .button-right button:hover {
+    background-color: #000000;
+    transform: scale(1.2);
+
+}
